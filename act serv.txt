@@ -1,0 +1,30 @@
+API
+
+
+> composer update
+
+
+> php artisan jwt:secret
+
+
+> php -S localhost:8000 -t public
+
+
+---------------------------------------------------------------
+
+Dentro de la carpeta VUE:
+
+
+> npm install --save
+
+
+> npm run serve
+
+
+
+
+Importante: Si el comando “npm install --save” arroja un error al tratar de actualizar las 
+dependencias, se debe borrar el archivo “package-lock.json”, y volver a utilizar el comando.
+Para que el proyecto funcione en su totalidad, la base de datos tiene que estar montada, 
+el servidor de Lumen y el servidor de Vue funcionando.
+
