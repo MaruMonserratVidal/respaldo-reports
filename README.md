@@ -16,8 +16,6 @@ API
 > php -S localhost:8000 -t public
 
 
----------------------------------------------------------------
-
 Para correr VUE
 APP-REPORTS
 
@@ -29,7 +27,8 @@ APP-REPORTS
 
 
 
-Importante: Si el comando “npm install --save” arroja un error al tratar de actualizar las 
+Importante: 
+Si el comando “npm install --save” arroja un error al tratar de actualizar las 
 dependencias, se debe borrar el archivo “package-lock.json”, y volver a utilizar el comando.
 Para que el proyecto funcione en su totalidad, la base de datos tiene que estar montada, 
 el servidor de Lumen y el servidor de Vue funcionando.
@@ -37,7 +36,9 @@ el servidor de Lumen y el servidor de Vue funcionando.
 
 --------------------------
 
-SE NECESITA EL ARCHIVO .env con el siguiente contenido:
+SE NECESITA EL ARCHIVO .env 
+--------------
+con el siguiente contenido:
 
 APP_ENV=local
 APP_DEBUG=true
