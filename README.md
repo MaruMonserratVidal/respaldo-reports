@@ -1,5 +1,9 @@
 respaldo-reports
 
+-----------------
+COMANDOS:
+-----------------
+Para correr LUMEN
 API
 
 
@@ -14,8 +18,8 @@ API
 
 ---------------------------------------------------------------
 
-Dentro de la carpeta VUE:
-
+Para correr VUE
+APP-REPORTS
 
 > npm install --save
 
